@@ -1,5 +1,9 @@
 # Tech Interviews
 
+> Here's a cheat sheet to prepare for technical interviews as a tech major. All the best for your interviews! Go get that **dream job**!
+
+### Table of Contents
+
 - [Data Structures](1%20-%20Data%20Structures.md)
     - [Binary Search Tree](1.1%20-%20Binary%20Search%20Tree.md)
     - [Binary Heap](1.2%20-%20Binary%20Heap.md)
@@ -11,8 +15,6 @@
 - [Object Oriented Programming](3%20-%20OOP.md)
 - [Miscellaneous](4%20-%20Miscellaneous.md)
 - [References](References.md)
-
-All the best for your interviews! Go get that **dream job**!
 
 ### Disclaimers
 

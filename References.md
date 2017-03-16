@@ -1,6 +1,6 @@
 # References
 
-This repository really doesn't do justice to these great resources and is in no way an alternative to them. Please do check them out to truly understand the concepts covered in this short guide!
+This repository really doesn't do justice to these great resources and is in no way an alternative to them. Please do check them out to truly understand the concepts covered in this cheat sheet!
 
 - Computer Science Courses @ Nanyang Technological University, Singapore
 - [Cracking the Coding Interview, 6th Edition - Gayle Laakmann McDowell](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850)
