@@ -1,6 +1,6 @@
 # Tech Interviews
 
-> Here's a cheat sheet to prepare for technical interviews as a tech major. All the best for your interviews! Go get that **dream job**!
+> Here's a cheat sheet to prepare for technical interviews as a CS major. All the best for your interviews! Go get that **dream job**!
 
 ### Table of Contents
 
