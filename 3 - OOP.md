@@ -8,25 +8,25 @@
     - The state of an object encompasses all of the (usually static) properties of the object plus the current (usually dynamic) values of each of these properties.
     - The behavior/actions of an object encompass the methods that represent the services & operations an object provides.
 - A **class** is a template/blueprint for objects. It contains data properties & methods. An object is a specific instance of a class.
-- **Object Composition –** An object can include other objects as its data member(s). The class will contain object references as its instance variables. *has-a* relationship.
+- **Object Composition –** An object can include other objects as its data member(s). *has-a* relationship.
 
 ## OOP Concepts
 
-- **Abstraction –** An abstraction denotes the essential characteristics of an object that distinguish it from all other kinds of objects and thus, provides crisply defined conceptual boundaries.
+- **Abstraction –** An abstraction denotes the essential characteristics of an object that distinguish it from all other kinds of objects, and thus, it provides crisply defined conceptual boundaries.
 - **Encapsulation –** Encapsulation builds a barrier to protect an object's private data. Access to the private data can only be done through public methods of the object's class, such as accessors & mutators.
     - **Information Hiding –** Hides the implementation details of the class from users of the class.
 - **Inheritance –** A mechanism that defines a new class that inherits the properties and behaviors (methods) of a parent class. Superclass/Base Class (Parent) → Subclass/Derived Class (Child). Any inherited behavior may be redefined and overridden in the subclass. Avoids duplication of code.
     - Multiple inheritance is when a class inherits from more than one superclass. A problem arises when there is more than one property/method to inherit with the same name.
-- **Polymorphism –** The same message can be sent to different objects with different results. Sending object does not need to know the class of the receiving object or how the object will respond.
+- **Polymorphism –** The same method can be invoked on different objects through the same reference type with different results. Sending object does not need to know the class of the receiving object or how the object will respond.
 
 ## Inheritance
 
-- Inheritance is an important OOP feature that allows us to derive new classes from existing classes by absorbing their attributes and behaviors while also adding new capabilities. This enables code reuse and can greatly reduce programming effort. *is-a* relationship.
+- Inheritance is an important OOP feature that allows the derivation of new classes from existing classes by absorbing their attributes and behaviors while also adding new capabilities. This enables code reuse and can greatly reduce programming effort. *is-a* relationship.
 - The **superclass** is a generalization of the subclasses.
 - The **subclasses** are specializations of the superclass.
 - **Method Overriding –** A subclass inherits properties and methods from the superclass. When a subclass alters a method from a superclass by defining a method with exactly the same signature, it overrides that method. This can either be a refinement or a replacement of the superclass' method.
     - Implementing abstract methods of an abstract class or implementing methods of an interface is also method overriding.
-- When a message is sent to an object, the search for a matching method begins at the class of the object → immediate superclass → and so on...
+- When a method is invoked on an object, the search for a matching method begins at the class of the object → immediate superclass → and so on...
 - **Method Overloading –** When a method is overloaded, it is designed to perform differently when supplied with different signatures i.e. same method name but different number of parameters or parameter types. *Not a behavior due to inheritance.*
 
 ### Types of Classes in Java
@@ -102,7 +102,7 @@
 ### Package
 
 - A package contains a set of classes that are grouped together in the same directory. Non-private data can be accessed by any object in the same package.
-- Packages allow for namespacing, thus, the same class name to be used in two different packages. For eg: `X.Deck` & `Y.Deck`.
+- Packages allow for namespacing, thus, the same class name can be used in two different packages. For eg: `X.Deck` & `Y.Deck`.
 
 ## Design Principles
 

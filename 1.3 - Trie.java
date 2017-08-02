@@ -34,7 +34,7 @@ public class Trie {
         node.isEnd = true;
     }
 
-    // Returns if the word is in the trie.
+    // Returns true if the word is in the trie.
     public boolean search(String word) {
         TrieNode node = searchNode(word);
 
@@ -45,7 +45,7 @@ public class Trie {
         }
     }
 
-    // Returns if there is any word in the trie that starts with the given prefix.
+    // Returns true if there is any word in the trie that starts with the given prefix.
     public boolean startsWith(String prefix) {
         TrieNode node = searchNode(prefix);
 

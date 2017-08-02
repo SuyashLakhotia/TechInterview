@@ -27,8 +27,10 @@ Data Type |       Description       | Default  |  Size
 
 ### Time Complexity
 
-- **Access:** `O(1)`
-- **Search:** `O(n)`
+- **Access:** `O(1)` (unsorted & sorted)
+- **Search:** `O(n)` (unsorted), `O(log n)` (sorted)
+- **Insertion:** `O(1)` (without shifting / unsorted), `O(n)` (with shifting / sorted)
+- **Deletion:** `O(1)` (without shifting / unsorted), `O(n)` (with shifting / sorted)
 - **Insertion at End of Dynamic Array:** `O(1)` amortized
 
 ### Java
@@ -44,7 +46,7 @@ Data Type |       Description       | Default  |  Size
 
 ### Important Points
 
-- Designed to optimize insertion and deletion. Slow at indexing and searching.
+- Designed to optimize insertion and deletion during iteration. Slow at indexing and searching.
 - **Singly Linked Lists** have nodes that reference the next node.
 - **Doubly Linked Lists** have nodes that also reference the previous node.
 - **Circularly Linked Lists** are linked lists whose *tail* references the *head*.
@@ -59,10 +61,10 @@ Data Type |       Description       | Default  |  Size
 
 ### Time Complexity
 
-- **Access:** `O(n)`
-- **Search:** `O(n)`
-- **Insertion:** `O(1)`
-- **Deletion:** `O(1)`
+- **Access:** `O(n)` (unsorted & sorted)
+- **Search:** `O(n)` (unsorted & sorted)
+- **Insertion:** `O(1)` (unsorted), `O(n)` (sorted)
+- **Deletion:** `O(1)` (unsorted & sorted)
 
 ### Java
 
@@ -175,7 +177,7 @@ Data Type |       Description       | Default  |  Size
     - A 2-D boolean array (adjacency matrix) is used to represent the edges.
     - Connectivity between two vertices can be verified quickly.
     - In an undirected graph, the adjacency matrix will be symmetrical.
-- An adjacency matrix is usually better to store dense graphs while an adjacency list is better to store sparse graphs.
+- An adjacency matrix is usually better for storing dense graphs while an adjacency list is better for storing sparse graphs.
 - Traversal in an adjacency list implementation is more efficient than an adjacency matrix implementation since it's not necessary to iterate through all the nodes to find a node's neighbors.
 
 ### Important Points
@@ -189,9 +191,9 @@ Data Type |       Description       | Default  |  Size
 
 ### Time Complexity
 
-- **Storage Size:** Adjacency List: `O(|V| + |E|)`, Adjacency Matrix: `O(|V|^2)`
 - **Add Vertex:** Adjacency List: `O(1)`, Adjacency Matrix: `O(|V|^2)`
 - **Add Edge:** Adjacency List: `O(1)`, Adjacency Matrix: `O(1)`
 - **Remove Vertex:** Adjacency List: `O(|V| + |E|)`, Adjacency Matrix: `O(|V|^2)`
 - **Remove Edge:** Adjacency List: `O(|E|)`, Adjacency Matrix: `O(1)`
 - **Query for Adjacency:** Adjacency List: `O(|V|)`, Adjacency Matrix: `O(1)`
+- **Storage Size:** Adjacency List: `O(|V| + |E|)`, Adjacency Matrix: `O(|V|^2)`

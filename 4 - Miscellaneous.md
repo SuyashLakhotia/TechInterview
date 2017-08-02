@@ -81,8 +81,7 @@ int setBit(int num, int i) {
 
 ```java
 int clearBit(int num, int i) {
-    int mask = ~(1 << i);
-    return num & mask;
+    return num & ~(1 << i);
 }
 
 int clearBitsMSBThroughI(int num, int i) {
@@ -100,7 +99,7 @@ int clearBitsIThrough0(int num, int i) {
 
 ```java
 int toggleBit(int num, int i) {
-    return num ^= (1 << i);
+    return num ^ (1 << i);
 }
 ```
 
