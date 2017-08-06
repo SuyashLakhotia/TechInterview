@@ -52,7 +52,7 @@
 - Computers typically store integers in two's complement representation.
 - Range of unsigned numbers that can be stored with `N` bits is `0` - `+(2^N - 1)`.
 - Range of signed numbers that can be stored with `N` bits in two's complement representation is `-(2^(N - 1))` - `+(2^(N - 1) - 1)`.
-- Binary representation of `-K` is `concat(1, bin(2^(N - 1) - K))`.
+- Binary representation of `-K` is `concat(1, bin(2^(N - 1) - K))`. Another way to compute it is to flip the bits of the binary representation of `K`, add `1` and then prepend the sign bit `1`.
 
 ### Arithmetic vs. Logical Shift
 
