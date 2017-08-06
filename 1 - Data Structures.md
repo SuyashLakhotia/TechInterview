@@ -49,7 +49,7 @@ Data Type |       Description       | Default  |  Size
 - Designed to optimize insertion and deletion during iteration. Slow at indexing and searching.
 - **Singly Linked Lists** have nodes that reference the next node.
 - **Doubly Linked Lists** have nodes that also reference the previous node.
-- **Circularly Linked Lists** are linked lists whose *tail* references the *head*.
+- **Circularly Linked Lists** are linked lists whose *tail* reference the *head*.
 - **Stacks** are commonly implemented using linked lists.
     - Stacks are **last in, first out (LIFO)** data structures. `push()` & `pop()`.
     - Implemented with a linked list where the head is the only place for insertion and removal.
@@ -68,6 +68,7 @@ Data Type |       Description       | Default  |  Size
 
 ### Java
 
+- [Java Implementation of Linked List](1.1%20-%20Linked%20List.md)
 - [Oracle Docs - LinkedList](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html)
 - [TutorialsPoint - LinkedList](https://www.tutorialspoint.com/java/util/java_util_linkedlist.htm)
 - [TutorialsPoint - Iterator](https://www.tutorialspoint.com/java/java_using_iterator.htm)
@@ -143,7 +144,7 @@ Data Type |       Description       | Default  |  Size
 - A **full binary tree** is one where every node has either zero or two children.
 - A **perfect binary tree** is one that is both full and complete. Perfect binary trees must have exactly `2^k - 1` nodes, where `k` is the number of levels.
 - A **degenerate tree** is an unbalanced tree, which if entirely one-sided is essentially a linked list.
-- Used to implement [**binary search trees**](1.1%20-%20Binary%20Search%20Tree.md) & [**binary heaps**](1.2%20-%20Binary%20Heap.md).
+- Used to implement [**binary search trees**](1.2%20-%20Binary%20Search%20Tree.md) & [**binary heaps**](1.3%20-%20Binary%20Heap.md).
 
 ## Trie (Prefix Tree)
 
@@ -161,7 +162,7 @@ Data Type |       Description       | Default  |  Size
 
 ### Java
 
-- [Java Implementation of Trie](1.3%20-%20Trie.java)
+- [Java Implementation of Trie](1.4%20-%20Trie.md)
 
 ## Graph
 
@@ -178,7 +179,7 @@ Data Type |       Description       | Default  |  Size
     - Connectivity between two vertices can be verified quickly.
     - In an undirected graph, the adjacency matrix will be symmetrical.
 - An adjacency matrix is usually better for storing dense graphs while an adjacency list is better for storing sparse graphs.
-- Traversal in an adjacency list implementation is more efficient than an adjacency matrix implementation since it's not necessary to iterate through all the nodes to find a node's neighbors.
+- Traversal in an adjacency list implementation is more efficient than an adjacency matrix implementation since it is not necessary to iterate through all the nodes to find a node's neighbors.
 
 ### Important Points
 

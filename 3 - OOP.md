@@ -90,6 +90,7 @@
 
 > `final`
 
+- A `final` variable cannot be initialized more than once.
 - A `final` method cannot be overridden in subclasses and a `final` class cannot be a superclass.
 - Improves security by ensuring no change in behavior and improves efficiency by reducing runtime type checking and binding.
 
