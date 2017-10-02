@@ -39,6 +39,9 @@
 - [Tree & Graph Traversal Algorithms](2.3%20-%20Tree%20&%20Graph%20Traversal%20Algorithms.md)
     - Breadth-First Traversal
     - Depth-First Traversal (Pre-Order, In-Order, Post-Order)
-- [Pathfinding Algorithms](2.4%20-%20-Pathfinding%20Algorithms.md)
+- [Pathfinding Algorithms](2.4%20-%20Pathfinding%20Algorithms.md)
     - Dijkstra's Algorithm
     - A* Search Algorithm
+- [Other Graph Algorithms](2.5-%20Other%20Graph%20Algorithms.md)
+    - Prim's Algorithm
+    - Kruskal's Algorithm
