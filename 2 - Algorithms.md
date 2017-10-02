@@ -23,6 +23,13 @@
     - An **objective function**, which assigns a value to a solution, or a partial solution.
     - A **solution function**, which will indicate when we have discovered a complete solution.
 
+## Dynamic Programming
+
+- A general method for solving a problem with optimal substructure by breaking it down into overlapping subproblems.
+- **Top-Down:** Memoize (store) the solutions to subproblems and solve problem recursively.
+- **Bottom-Up:** Build up subproblems from base case up and avoid recursive overhead.
+    - Order subproblems by topologically sorting DAG of dependencies.
+
 ## Important Algorithms
 
 - [Search Algorithms](2.1%20-%20Search%20Algorithms.md)
@@ -35,6 +42,7 @@
     - Merge Sort
     - Quicksort
     - Heap Sort
+    - Bucket Sort
     - Radix Sort
 - [Tree & Graph Traversal Algorithms](2.3%20-%20Tree%20&%20Graph%20Traversal%20Algorithms.md)
     - Breadth-First Traversal
@@ -42,6 +50,9 @@
 - [Pathfinding Algorithms](2.4%20-%20Pathfinding%20Algorithms.md)
     - Dijkstra's Algorithm
     - A* Search Algorithm
-- [Other Graph Algorithms](2.5-%20Other%20Graph%20Algorithms.md)
+    - Bellman-Ford Algorithm
+    - Floyd-Warshall Algorithm
+- [Other Graph Algorithms](2.5%20-%20Other%20Graph%20Algorithms.md)
     - Prim's Algorithm
     - Kruskal's Algorithm
+    - Topological Sorting

@@ -150,6 +150,17 @@ Data Type |       Description       | Default  |  Size
 
 - [Java Implementation of Trie](1.4%20-%20Trie.md)
 
+## Segment Tree
+
+- A segment tree is a tree data structure for storing intervals or segments.
+- It allows querying which of the stored segments contain a given element.
+- It is usually a static structure i.e. it cannot be modified easily once it's built.
+
+### Time Complexity
+
+- A segment tree for a set `I` of `n` intervals uses `O(n log n)` storage and can be built in `O(n log n)` time.
+- Segment trees support searching for all the intervals that contain a query point in `O(log n + k)`, `k` being the number of retrieved intervals or segments.
+
 ## Graph
 
 - A linked list based data structure where links (edges) can exist between any two nodes (vertices).
@@ -174,6 +185,7 @@ Data Type |       Description       | Default  |  Size
 - A **path** is a sequence of edges that connect two nodes.
 - A **connected graph** is a graph where a path exists between any two nodes.
 - A **complete graph** is a graph where every vertex is directly connected to every other vertex.
+- A **clique** is a complete subgraph.
 - Traversal is similar to trees but vertices must be marked as visited (due to multiple possible paths) and all adjacent vertices must be visited (as opposed to just two in binary trees).
 
 ### Time Complexity
