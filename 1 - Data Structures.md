@@ -35,10 +35,8 @@ Data Type |       Description       | Default  |  Size
 
 ### Java
 
-- [Oracle Docs - Array](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
-- [TutorialsPoint - Array](https://www.tutorialspoint.com/java/java_arrays.htm)
-- [Oracle Docs - ArrayList](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html)
-- [TutorialsPoint - ArrayList](https://www.tutorialspoint.com/java/java_arraylist_class.htm)
+- `Array`: [Oracle Docs](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html), [TutorialsPoint](https://www.tutorialspoint.com/java/java_arrays.htm)
+- `ArrayList`: [Oracle Docs](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html), [TutorialsPoint](https://www.tutorialspoint.com/java/java_arraylist_class.htm)
 
 ## Linked List
 
@@ -69,12 +67,11 @@ Data Type |       Description       | Default  |  Size
 ### Java
 
 - [Java Implementation of Linked List](1.1%20-%20Linked%20List.md)
-- [Oracle Docs - LinkedList](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html)
-- [TutorialsPoint - LinkedList](https://www.tutorialspoint.com/java/util/java_util_linkedlist.htm)
-- [TutorialsPoint - Iterator](https://www.tutorialspoint.com/java/java_using_iterator.htm)
-- [Oracle Docs - Stack](https://docs.oracle.com/javase/8/docs/api/java/util/Stack.html)
-- [Oracle Docs - Queue](https://docs.oracle.com/javase/8/docs/api/java/util/Queue.html)
-- [Oracle Docs - Deque](https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html)
+- `LinkedList`: [Oracle Docs](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html), [LinkedList](https://www.tutorialspoint.com/java/util/java_util_linkedlist.htm)
+- `Iterator`: [TutorialsPoint](https://www.tutorialspoint.com/java/java_using_iterator.htm)
+- `Stack`: [Oracle Docs](https://docs.oracle.com/javase/8/docs/api/java/util/Stack.html)
+- `Queue`: [Oracle Docs](https://docs.oracle.com/javase/8/docs/api/java/util/Queue.html)
+- `Deque`: [Oracle Docs](https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html)
 
 ## Hash Table
 
@@ -108,23 +105,12 @@ Data Type |       Description       | Default  |  Size
 
 ### Java
 
-- **`HashMap`:** `<K, V>`, no guarantee about iteration order, `O(1)`.
-- **`TreeMap`:** `<K, V>`, iteration according to natural order of keys or externally supplied `Comparator`, `O(log n)`.
-- **`LinkedHashMap`:** `<K, V>`, iteration according to insertion order, `O(1)`.
-- **`HashSet`:** `<T>`, no guarantee about iteration order, `O(1)`.
-- **`TreeSet`:** `<T>`, iteration according to natural order of keys or externally supplied `Comparator`, `O(log n)`.
-- **`LinkedHashSet`:** `<T>`, iteration according to insertion order, `O(1)`.
-
-#### Links
-
-- [TutorialsPoint - HashMap](https://www.tutorialspoint.com/java/java_hashmap_class.htm)
-- [Oracle Docs - HashMap](https://docs.oracle.com/javase/8/docs/api/java/util/HashMap.html)
-- [Oracle Docs - TreeMap](https://docs.oracle.com/javase/8/docs/api/java/util/TreeMap.html)
-- [Oracle Docs - LinkedHashMap](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedHashMap.html)
-- [TutorialsPoint - HashSet](https://www.tutorialspoint.com/java/java_hashset_class.htm)
-- [Oracle Docs - HashSet](https://docs.oracle.com/javase/8/docs/api/java/util/HashSet.html)
-- [Oracle Docs - TreeSet](https://docs.oracle.com/javase/7/docs/api/java/util/TreeSet.html)
-- [Oracle Docs - LinkedHashSet](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedHashSet.html)
+- **`HashMap`:** `<K, V>`, no guarantee about iteration order, `O(1)`. [Oracle Docs](https://docs.oracle.com/javase/8/docs/api/java/util/HashMap.html), [TutorialsPoint](https://www.tutorialspoint.com/java/java_hashmap_class.htm).
+- **`TreeMap`:** `<K, V>`, iteration according to natural order of keys or externally supplied `Comparator`, `O(log n)`. [Oracle Docs](https://docs.oracle.com/javase/8/docs/api/java/util/TreeMap.html).
+- **`LinkedHashMap`:** `<K, V>`, iteration according to insertion order, `O(1)`. [Oracle Docs](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedHashMap.html).
+- **`HashSet`:** `<T>`, no guarantee about iteration order, `O(1)`. [Oracle Docs](https://docs.oracle.com/javase/8/docs/api/java/util/HashSet.html), [TutorialsPoint](https://www.tutorialspoint.com/java/java_hashset_class.htm).
+- **`TreeSet`:** `<T>`, iteration according to natural order of keys or externally supplied `Comparator`, `O(log n)`. [Oracle Docs](https://docs.oracle.com/javase/7/docs/api/java/util/TreeSet.html).
+- **`LinkedHashSet`:** `<T>`, iteration according to insertion order, `O(1)`. [Oracle Docs](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedHashSet.html).
 
 ## Tree
 
