@@ -4,14 +4,14 @@
 
 ### Table of Contents
 
-- [Data Structures](1%20-%20Data%20Structures.md)
-- [Algorithms](2%20-%20Algorithms.md)
-- [Object Oriented Programming](3%20-%20OOP.md)
-- [Design Patterns](4%20-%20Design%20Patterns.md)
-- [OS Fundamentals](5%20-%20OS%20Fundamentals.md)
-- [Concurrency in Java](6%20-%20Concurrency%20in%20Java.md)
-- [Bit Manipulation](7%20-%20Bit%20Manipulation.md)
-- [Miscellaneous](8%20-%20Miscellaneous.md)
+1. [Data Structures](1%20-%20Data%20Structures.md)
+2. [Algorithms](2%20-%20Algorithms.md)
+3. [Object Oriented Programming](3%20-%20OOP.md)
+4. [Design Patterns](4%20-%20Design%20Patterns.md)
+5. [OS Fundamentals](5%20-%20OS%20Fundamentals.md)
+6. [Concurrency in Java](6%20-%20Concurrency%20in%20Java.md)
+7. [Bit Manipulation](7%20-%20Bit%20Manipulation.md)
+8. [Miscellaneous](8%20-%20Miscellaneous.md)
 
 ### Disclaimers
 
