@@ -1,6 +1,6 @@
 # Concurrency in Java
 
-> Adapted from the brilliant [Oracle tutorial](https://docs.oracle.com/javase/tutorial/essential/concurrency/index.html) on Java concurrency.
+> Adapted from the [Oracle tutorial](https://docs.oracle.com/javase/tutorial/essential/concurrency/index.html) on Java concurrency.
 
 In concurrent programming, there are two basic units of execution - processes & threads. A process has a self-contained execution environment and is often seen as synonymous with programs and applications (though this may not be true). Inter-process communication usually happens via pipes or sockets as processes have their own memory space. Threads, on the other hand, exist within a process (each process has at least one) and share the process's resources. From the application programmer's point of view, you start with just one `main` thread (not counting "system" threads for memory management, signal handling etc.), which has the ability to create new threads.
 
@@ -32,7 +32,7 @@ public class HelloThread extends Thread {
 }
 ```
 
-The first approach is more flexible and separates the `Runnable` task from the `Thread` object that executes the task.
+The first approach is more flexible and separates the `Runnable` task from the `Thread` object that executes the task. Additionally, since Java does not support multiple inheritance, implementing the `Runnable` interface will still allow the runnable class to extend another class.
 
 ### Sleep
 
@@ -117,7 +117,24 @@ public class ABC {
 }
 ```
 
-Note that a thread can acquire a lock it already owns. For example, if a synchronized method invokes another synchronized method of the same object.
+```java
+public class LockedClass {
+    private Lock lock;
+    private int i = 0;
+
+    public LockedClass() {
+        lock = new ReentrantLock();
+    }
+
+    public void inc() {
+        lock.lock();
+        i++;
+        lock.unlock();
+    }
+}
+```
+
+Note that a thread can acquire a lock it already owns (reentrant synchronization). For example, this may be needed if a synchronized method invokes another synchronized method for the same object.
 
 ### Atomic Access
 
