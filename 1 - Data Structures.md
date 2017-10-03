@@ -35,8 +35,10 @@ Data Type |       Description       | Default  |  Size
 
 ### Java
 
-- `Array`: [Oracle Docs](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html), [TutorialsPoint](https://www.tutorialspoint.com/java/java_arrays.htm)
-- `ArrayList`: [Oracle Docs](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html), [TutorialsPoint](https://www.tutorialspoint.com/java/java_arraylist_class.htm)
+- **`Array`**: [Oracle Docs](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html), [TutorialsPoint](https://www.tutorialspoint.com/java/java_arrays.htm)
+- **`ArrayList`**: [Oracle Docs](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html), [TutorialsPoint](https://www.tutorialspoint.com/java/java_arraylist_class.htm)
+- **`String`**: [Oracle Docs](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)
+- **`StringBuilder`**: [Oracle Docs](https://docs.oracle.com/javase/8/docs/api/java/lang/StringBuilder.html)
 
 ## Linked List
 
@@ -67,11 +69,13 @@ Data Type |       Description       | Default  |  Size
 ### Java
 
 - [Java Implementation of Linked List](1.1%20-%20Linked%20List.md)
-- `LinkedList`: [Oracle Docs](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html), [LinkedList](https://www.tutorialspoint.com/java/util/java_util_linkedlist.htm)
-- `Iterator`: [TutorialsPoint](https://www.tutorialspoint.com/java/java_using_iterator.htm)
-- `Stack`: [Oracle Docs](https://docs.oracle.com/javase/8/docs/api/java/util/Stack.html)
-- `Queue`: [Oracle Docs](https://docs.oracle.com/javase/8/docs/api/java/util/Queue.html)
-- `Deque`: [Oracle Docs](https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html)
+- [Java Implementation of Stack](1.2%20-%20Stack.md)
+- [Java Implementation of Queue](1.3%20-%20Queue.md)
+- **`LinkedList`**: [Oracle Docs](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html), [LinkedList](https://www.tutorialspoint.com/java/util/java_util_linkedlist.htm)
+- **`Iterator`**: [TutorialsPoint](https://www.tutorialspoint.com/java/java_using_iterator.htm)
+- **`Stack`**: [Oracle Docs](https://docs.oracle.com/javase/8/docs/api/java/util/Stack.html)
+- **`Queue`**: [Oracle Docs](https://docs.oracle.com/javase/8/docs/api/java/util/Queue.html)
+- **`Deque`**: [Oracle Docs](https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html)
 
 ## Hash Table
 
@@ -130,7 +134,7 @@ Data Type |       Description       | Default  |  Size
 - A **full binary tree** is one where every node has either zero or two children.
 - A **perfect binary tree** is one that is both full and complete. Perfect binary trees must have exactly `2^k - 1` nodes, where `k` is the number of levels.
 - A **degenerate tree** is an unbalanced tree, which if entirely one-sided is essentially a linked list.
-- Used to implement [**binary search trees**](1.2%20-%20Binary%20Search%20Tree.md) & [**binary heaps**](1.3%20-%20Binary%20Heap.md).
+- Used to implement [**binary search trees**](1.4%20-%20Binary%20Search%20Tree.md) & [**binary heaps**](1.5%20-%20Binary%20Heap.md).
 
 ## Trie (Prefix Tree)
 
@@ -148,7 +152,7 @@ Data Type |       Description       | Default  |  Size
 
 ### Java
 
-- [Java Implementation of Trie](1.4%20-%20Trie.md)
+- [Java Implementation of Trie](1.6%20-%20Trie.md)
 
 ## Segment Tree
 

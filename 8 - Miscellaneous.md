@@ -31,6 +31,8 @@
 
 ### Combinatorics
 
+- `2^(n + 1) - 1`: Sum of powers of two from 1 though `n`.
+- `(n (n + 1)) / 2`: Sum of integers from 1 through `n`.
 - `(n (n - 1)) / 2`: No. of handshakes in a group.
 - `n - 1`: No. of matches in a knockout tournament.
 - `2^k`: No. of binary strings of length `k`.
@@ -57,3 +59,11 @@
 - `500 Internal Server Error`: Server exception.
 - `503 Service Unavailable`: Server unable to handle the request (temporary).
 - `504 Gateway Timeout`: Server did not receive a timely response from an upstream server.
+
+## Rabin-Karp Substring Search
+
+The brute force way to search for a substring of length `b` in a larger string of length `S` takes `O(b (S - b))` time, since the first `S - b + 1` characters are searched in the larger string and for each, the next `b` characters are checked.
+
+The Rabin-Karp algorithm takes advantage of the fact that two identical strings will have the same hash value. Note that two different strings may also have the same hash value.
+
+Therefore, using this trick can reduce the search time (in the best case) to `O(S)` since we just need to compute the hash value for every sequence of `b` characters in the larger string and validate those substrings.

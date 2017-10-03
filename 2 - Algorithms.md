@@ -12,6 +12,7 @@
 - An algorithm that calls itself in its definition.
 - The **recursive case** in a conditional statement is used to trigger the recursion.
 - The **base case** in a conditional statement is used to break the recursion.
+- Note that recursive algorithms can be very space inefficient as each recursive call adds a new layer to the stack.
 
 ### Greedy
 
@@ -25,7 +26,7 @@
 
 ## Dynamic Programming
 
-- Dynamic programming is a general method for solving a problem with optimal substructure by breaking it down into overlapping subproblems.
+Dynamic programming is a general method for solving a problem with optimal substructure by breaking it down into overlapping subproblems.
 
 **Top-Down:** Memoize (store) the solutions to subproblems and solve problem recursively.
 
