@@ -37,6 +37,7 @@ Data Type |       Description       | Default  |  Size
 
 - **`Array`**: [Oracle Docs](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html), [TutorialsPoint](https://www.tutorialspoint.com/java/java_arrays.htm)
 - **`ArrayList`**: [Oracle Docs](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html), [TutorialsPoint](https://www.tutorialspoint.com/java/java_arraylist_class.htm)
+- **`Vector`**: Similar to `ArrayList` but synchronized. [Oracle Docs](https://docs.oracle.com/javase/8/docs/api/java/util/Vector.html)
 - **`String`**: [Oracle Docs](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)
 - **`StringBuilder`**: [Oracle Docs](https://docs.oracle.com/javase/8/docs/api/java/lang/StringBuilder.html)
 
