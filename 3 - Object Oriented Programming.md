@@ -43,14 +43,14 @@
 - A class implementing an interface has to provide an implementation for all the abstract methods. Otherwise, the new class will be abstract.
 - Interfaces can inherit each other as per normal i.e. `extends`.
 
-|                    Abstract Class                   |                       Interface                       |
-|:---------------------------------------------------:|:-----------------------------------------------------:|
-| `extends`                                           | `implements`                                          |
-| Real base class.                                    | Not a real base class.                                |
-| Can have object attributes (data members).          | Cannot have object attributes.                        |
-| May have some methods declared as `abstract`.       | Can only have abstract methods.                       |
-| May have `final` & non-final data attributes.       | Limited to only static constants i.e. `static final`. |
-| Cannot be instantiated as objects with `new`.       | Cannot be instantiated as objects with `new`.         |
+| Abstract Class |    Interface   |
+|:--------------:|:--------------:|
+| `extends` | `implements` |
+| Real base class. | Not a real base class. |
+| Can have object attributes (data members). | Cannot have object attributes. |
+| May have some methods declared as `abstract`. | Can only have abstract methods. |
+| May have `final` & non-final data attributes. | Limited to only static constants i.e. `static final`. |
+| Cannot be instantiated as objects with `new`. | Cannot be instantiated as objects with `new`. |
 
 ## Polymorphism
 
@@ -123,3 +123,10 @@
 - **Interface Segregation Principle –** Many client specific interfaces are better than one general purpose interface. Classes should not depend on interfaces that they do not use.
 - **Don't Repeat Yourself –** Refactor to eliminate duplicated code and functionality.
 - **Dependency Injection Principle –** High level modules should not depend upon low level modules. Both should depend upon abstractions. This allows the simple reuse of high level modules.
+
+## Handling Object-Oriented Design Questions
+
+1. Handle Ambiguity
+2. Define the Core Objects
+3. Analyze Relationships (i.e. inheritance, one-to-many, many-to-many, has-a etc.)
+4. Investigate Actions

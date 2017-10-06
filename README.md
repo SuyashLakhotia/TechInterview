@@ -6,7 +6,7 @@
 
 1. [Data Structures](1%20-%20Data%20Structures.md)
 2. [Algorithms](2%20-%20Algorithms.md)
-3. [Object Oriented Programming](3%20-%20OOP.md)
+3. [Object Oriented Programming](3%20-%20Object%20Oriented%20Programming.md)
 4. [Design Patterns](4%20-%20Design%20Patterns.md)
 5. [OS Fundamentals](5%20-%20OS%20Fundamentals.md)
 6. [Concurrency in Java](6%20-%20Concurrency%20in%20Java.md)
