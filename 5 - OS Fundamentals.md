@@ -34,13 +34,13 @@ A deadlock is a situation where a thread is waiting for a resource that another 
 
 Deadlocks can be prevented by removing any one of the four conditions above. However, most deadlock prevention algorithms focus on avoiding circular wait.
 
-## Starvation
-
-Starvation describes a situation where a thread is unable to gain regular access to shared resources and is unable to make progress. This happens when shared resources are made unavailable for long periods by "greedy" threads.
-
 ## Livelock
 
 A thread often acts in response to the action of another thread. If the other thread's action is also a response to the action of another thread, then livelock may result. As with deadlock, livelocked threads are unable to make further progress. However, the threads are not blocked — they are simply too busy responding to each other to resume work.
+
+## Starvation
+
+Starvation describes a situation where a thread is unable to gain regular access to shared resources and is unable to make progress. This happens when shared resources are made unavailable for long periods by "greedy" threads.
 
 ## Scheduling
 

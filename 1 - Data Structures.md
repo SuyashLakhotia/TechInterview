@@ -35,11 +35,11 @@ Data Type |       Description       | Default  |  Size
 
 ### Java
 
-- **`Array`**: [Oracle Docs](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html), [TutorialsPoint](https://www.tutorialspoint.com/java/java_arrays.htm)
-- **`ArrayList`**: [Oracle Docs](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html), [TutorialsPoint](https://www.tutorialspoint.com/java/java_arraylist_class.htm)
-- **`Vector`**: Similar to `ArrayList` but synchronized. [Oracle Docs](https://docs.oracle.com/javase/8/docs/api/java/util/Vector.html)
-- **`String`**: [Oracle Docs](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)
-- **`StringBuilder`**: [Oracle Docs](https://docs.oracle.com/javase/8/docs/api/java/lang/StringBuilder.html)
+- **`Array`:** [Oracle Docs](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html), [TutorialsPoint](https://www.tutorialspoint.com/java/java_arrays.htm).
+- **`ArrayList`:** [Oracle Docs](https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html), [TutorialsPoint](https://www.tutorialspoint.com/java/java_arraylist_class.htm).
+- **`Vector`:** Similar to `ArrayList` but synchronized. [Oracle Docs](https://docs.oracle.com/javase/8/docs/api/java/util/Vector.html).
+- **`String`:** [Oracle Docs](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html).
+- **`StringBuilder`:** [Oracle Docs](https://docs.oracle.com/javase/8/docs/api/java/lang/StringBuilder.html).
 
 ## Linked List
 
@@ -72,22 +72,22 @@ Data Type |       Description       | Default  |  Size
 - [Java Implementation of Linked List](1.1%20-%20Linked%20List.md)
 - [Java Implementation of Stack](1.2%20-%20Stack.md)
 - [Java Implementation of Queue](1.3%20-%20Queue.md)
-- **`LinkedList`**: [Oracle Docs](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html), [LinkedList](https://www.tutorialspoint.com/java/util/java_util_linkedlist.htm)
-- **`Iterator`**: [TutorialsPoint](https://www.tutorialspoint.com/java/java_using_iterator.htm)
-- **`Stack`**: [Oracle Docs](https://docs.oracle.com/javase/8/docs/api/java/util/Stack.html)
-- **`Queue`**: [Oracle Docs](https://docs.oracle.com/javase/8/docs/api/java/util/Queue.html)
-- **`Deque`**: [Oracle Docs](https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html)
+- **`LinkedList`:** [Oracle Docs](https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html), [TutorialsPoint](https://www.tutorialspoint.com/java/util/java_util_linkedlist.htm).
+- **`Iterator`:** [TutorialsPoint](https://www.tutorialspoint.com/java/java_using_iterator.htm).
+- **`Stack`:** [Oracle Docs](https://docs.oracle.com/javase/8/docs/api/java/util/Stack.html).
+- **`Queue`:** [Oracle Docs](https://docs.oracle.com/javase/8/docs/api/java/util/Queue.html).
+- **`Deque`:** [Oracle Docs](https://docs.oracle.com/javase/8/docs/api/java/util/Deque.html).
 
 ## Hash Table
 
 - Stores data as key-value pairs in a direct access table.
-- **Hash Functions** accept a key (from an arbitrarily sized dataset) and map it to an output i.e. hash code (from a fixed sized dataset). This hash code is then mapped to an index for storage.
-    - This is known as **hashing**, whose motivation is to assign a unique index to every possible key.
-    - This is done because the actual key space may be too large while only a fraction of those keys may appear.
+- Designed to optimize searching, insertion and deletion.
 
 ### Important Points
 
-- Designed to optimize searching, insertion and deletion.
+- **Hash Functions** accept a key (from an arbitrarily sized dataset) and map it to an output i.e. hash code (from a fixed sized dataset). This hash code is then mapped to an index for storage.
+    - This is known as **hashing**, whose motivation is to assign a unique index to every possible key.
+    - This is done because the actual key space may be too large while only a fraction of those keys may appear.
 - A good **hash function** must:
     - return a value within the hash table range.
     - achieve an even distribution of indices from the keys that actually occur.
@@ -100,7 +100,7 @@ Data Type |       Description       | Default  |  Size
         - **Linear Probing -** Insert the colliding record in the next slot recursively. However, this can result in long runs of occupied slots.
         - **Quadratic Probing/Double Hashing -** Use two hash functions to hash the key twice in case of a collision.
         - Using open address hashing requires a hash cell to be marked as *obsolete* when a record is deleted to avoid stopping search.
-- Hashes are important for associative arrays and database indexing.
+- Hashes are important for associative arrays (i.e. key-value pairs) and database indexing.
 
 ### Time Complexity
 
