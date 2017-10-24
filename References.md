@@ -4,6 +4,7 @@ This repository really doesn't do justice to these great resources and is in no 
 
 - Computer Science Courses @ Nanyang Technological University, Singapore
 - [Cracking the Coding Interview, 6th Edition - Gayle Laakmann McDowell](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850)
+- Introduction to Algorithms, 3rd Edition - Cormen et. al
 - [Hacking a Google Interview Handouts](http://courses.csail.mit.edu/iap/interview/Hacking_a_Google_Interview_Handout_1.pdf)
 - [Big O Cheat Sheet](http://bigocheatsheet.com/)
 - [GeeksforGeeks](http://www.geeksforgeeks.org/)

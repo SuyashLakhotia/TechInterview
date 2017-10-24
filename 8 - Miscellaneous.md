@@ -39,6 +39,18 @@
 - `n! / ((n - k)!)`: Permutations of `n` items taken `k` at a time.
 - `n! / (k! (n - k)!)`: Combinations of `n` items taken `k` at a time.
 
+### Probability
+
+```
+P(A and B) = P(B | A) P(A)
+P(A or B) = P(A) + P(B) - P(A and B)
+
+P(A and B) = P(A) P(B)  // if A & B are independent
+P(A or B) = P(A) + P(B)  // if A & B are mutually exclusive
+
+P(A | B) = (P(B | A) P(A)) / P(B)
+```
+
 ## Internet
 
 ### HTTP Methods

@@ -26,7 +26,10 @@
 
 ## Dynamic Programming
 
-Dynamic programming is a general method for solving a problem with optimal substructure by breaking it down into overlapping subproblems.
+Dynamic programming is a general method for solving a problem with *optimal substructure* by breaking it down into *overlapping subproblems*.
+
+- A problem exhibits *optimal substructure* if an optimal solution to the problem contains within it optimal solutions to subproblems. Additionally, the solution to one subproblem should not affect the solution to another subproblem of the same problem.
+- A problem has *overlapping subproblems* when a recursive solution revisits the same problem repeatedly.
 
 **Top-Down:** Memoize (store) the solutions to subproblems and solve problem recursively.
 
