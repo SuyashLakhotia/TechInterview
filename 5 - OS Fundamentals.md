@@ -23,7 +23,7 @@
 
 
 - A semaphore is a signalling mechanism that restricts the number of simultaneous users of a shared resource up to a maximum number. Threads can request access to the resource (decrementing the semaphore), and can signal that they have finished using the resource (incrementing the semaphore).
-- Even though the implementation of a mutex is similar to that of a binary semaphore they are not the SAME,a mutex is locking mechanism used to synchronize access to a resource while a semaphore is signaling mechanism (“I am done, you can carry on” kind of signal).
+- Even though the implementation of a mutex is similar to that of a binary semaphore they are not the SAME, a mutex is locking mechanism used to synchronize access to a resource while a semaphore is signaling mechanism (“I am done, you can carry on” kind of signal).
 
 ## Deadlocks
 
