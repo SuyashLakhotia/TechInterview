@@ -21,7 +21,7 @@
 - A mutex is like a lock. Mutexes are used in parallel programming to ensure that only one thread can access a shared resource at a time.
 - A mutex provides mutual exclusion. For example, either a producer or a consumer can have the key (mutex) to proceed with their work. As long as the buffer is being filled by the producer, the consumer needs to wait and vice-versa.
 - A semaphore is a signalling mechanism that restricts the number of simultaneous users for a shared resource up to a maximum number. Threads can request access to the resource (by decrementing the semaphore) and can signal that they have finished using the resource (by incrementing the semaphore).
-- Even though the implementation of a mutex is similar to that of a binary semaphore they are not the same. A mutex is a locking mechanism used to synchronize access to a resource while a semaphore is more like a signaling mechanism (e.g. "I am done, you can carry on").
+- Even though the implementation of a mutex is similar to that of a binary semaphore they are not the same. A mutex is a locking mechanism used to synchronize access to a resource while a semaphore is more like a signaling mechanism.
 
 ## Deadlocks
 
