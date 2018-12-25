@@ -7,7 +7,7 @@
     - The attributes of an object encompass the data/variables that characterize the state.
     - The state of an object encompasses all of the (usually static) properties of the object plus the current (usually dynamic) values of each of these properties.
     - The behavior/actions of an object encompass the methods that represent the services & operations an object provides.
-- A **class** is a template/blueprint for objects. It contains data properties & methods. An object is a specific instance of a class.
+- A **class** is a template/blueprint for objects. It contains data properties & methods. An **object** is a specific instance of a class.
 - **Object Composition –** An object can include other objects as its data member(s). *has-a* relationship.
 
 ## OOP Concepts
@@ -33,7 +33,7 @@
 
 - A **concrete class** is a class with implementation for all methods.
 - **Abstract Classes & Methods (`abstract`) -** Abstract methods don't have any implementation in the abstract class. The implementation must be provided by the subclass(es).
-    - `public abstract class Rectangle {}`
+    - `public abstract class Quadrilateral {}`
     - `public abstract double findArea();`
 - Multiple inheritance is not supported by Java. However, Java does support implementing multiple interfaces.
 - An **interface** is like an abstract class except it contains only abstract methods and constants (i.e. `static final`). The `abstract` keyword is not needed when defining the methods in an interface.
@@ -115,7 +115,7 @@
 - The main design goal of OOD is to make software easier to change i.e. minimize impact of change.
 - A modular program has well-defined, conceptually simple and independent units interacting through well-defined interfaces. Achieved through encapsulation, low coupling & high cohesion.
 
-### SOLID
+### SOLID(D)
 
 - **Single Responsibility Principle –** There should never be more than one reason for a class to change. If the class has more than one responsibility, then the responsibilities become coupled.
 - **Open-Closed Principle –** A module should be open for extension but closed for modification. We want to be able to change what the modules do, without changing the source code of the modules.
