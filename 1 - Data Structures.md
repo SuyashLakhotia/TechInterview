@@ -50,7 +50,7 @@ Data Type |       Description       | Default  |  Size
 - Designed to optimize insertion and deletion during iteration. Slow at indexing and searching.
 - **Singly Linked Lists** have nodes that reference the next node.
 - **Doubly Linked Lists** have nodes that also reference the previous node.
-- **Circularly Linked Lists** are linked lists whose *tail* reference the *head*.
+- **Circularly Linked Lists** are linked lists whose *tail* references the *head*.
 - **Stacks** are commonly implemented using linked lists.
     - Stacks are **last in, first out (LIFO)** data structures. `push()` & `pop()`.
     - Implemented with a linked list where the head is the only place for insertion and removal.
@@ -139,7 +139,8 @@ Data Type |       Description       | Default  |  Size
 
 ## Trie (Prefix Tree)
 
-- Is a variant of an n-ary tree in which characters are stored at each node. Each path down the tree represents a word.
+- Is a variant of an n-ary tree in which characters are stored at each node.
+- Each path down the tree represents a word.
 
 ### Important Points
 

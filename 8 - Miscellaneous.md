@@ -78,4 +78,4 @@ The brute force way to search for a substring of length `b` in a larger string o
 
 The Rabin-Karp algorithm takes advantage of the fact that two identical strings will have the same hash value. Note that two different strings may also have the same hash value.
 
-Therefore, using this trick can reduce the search time (in the best case) to `O(S)` since we just need to compute the hash value for every sequence of `b` characters in the larger string and validate those substrings.
+Therefore, using this trick can reduce the search time (in the best case) to `O(S)` since we just need to compute the hash value for every sequence of `b` characters in the larger string and subsequently validate those substrings.

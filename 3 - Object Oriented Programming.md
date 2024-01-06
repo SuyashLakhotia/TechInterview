@@ -32,7 +32,7 @@
 ### Types of Classes in Java
 
 - A **concrete class** is a class with implementation for all methods.
-- **Abstract Classes & Methods (`abstract`) -** Abstract methods don't have any implementation in the abstract class. The implementation must be provided by the subclass(es).
+- **Abstract Classes & Methods (`abstract`) –** Abstract methods don't have any implementation in the abstract class. The implementation must be provided by the subclass(es).
     - `public abstract class Quadrilateral {}`
     - `public abstract double findArea();`
 - Multiple inheritance is not supported by Java. However, Java does support implementing multiple interfaces.
@@ -128,5 +128,5 @@
 
 1. Handle Ambiguity
 2. Define the Core Objects
-3. Analyze Relationships (i.e. inheritance, one-to-many, many-to-many, has-a etc.)
+3. Analyze Relationships (i.e. inheritance, one-to-many, many-to-many, has-a, etc.)
 4. Investigate Actions

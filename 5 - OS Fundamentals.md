@@ -13,7 +13,7 @@
 
 ## Processes & Threads
 
-- A process is an instance of a program in execution. It is an independent entity to which system resources are allocated. Each process executes in a separate address space and one process cannot access the data of another process. However, inter-process communication is possible using pipes, files, sockets etc.
+- A process is an instance of a program in execution. It is an independent entity to which system resources are allocated. Each process executes in a separate address space and one process cannot access the data of another process. However, inter-process communication is possible using pipes, files, sockets, etc.
 - A thread is a particular execution path of a process. It exists within a process and shares the process' resources. Multiple threads within the same process will share the same heap space but each thread still has its own registers and its own stack.
 
 ## Mutexes & Semaphores

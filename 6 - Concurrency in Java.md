@@ -2,7 +2,7 @@
 
 > Adapted from the [Oracle tutorial](https://docs.oracle.com/javase/tutorial/essential/concurrency/index.html) on Java concurrency.
 
-In concurrent programming, there are two basic units of execution - processes & threads. A process has a self-contained execution environment and is often seen as synonymous with programs and applications (though this may not be true). Inter-process communication usually happens via pipes or sockets as processes have their own memory space. Threads, on the other hand, exist within a process (each process has at least one) and share the process's resources. From the application programmer's point of view, you start with just one `main` thread (not counting "system" threads for memory management, signal handling etc.), which has the ability to create new threads.
+In concurrent programming, there are two basic units of execution - processes & threads. A process has a self-contained execution environment and is often seen as synonymous with programs and applications (though this may not be true). Inter-process communication usually happens via pipes or sockets as processes have their own memory space. Threads, on the other hand, exist within a process (each process has at least one) and share the process's resources. From the application programmer's point of view, you start with just one `main` thread (not counting "system" threads for memory management, signal handling, etc.), which has the ability to create new threads.
 
 ## Thread Objects
 
@@ -62,7 +62,7 @@ Threads communicate each other primarily by sharing access to fields and the obj
 
 ### Thread Interference
 
-Interference happens when two operations, running in different threads, but acting on the same data, *interleave*. This means that the two operations consist of multiple steps and the sequences of steps overlap. For example, `c++` & `c--` being invoked by two concurrent threads. Thread interference bugs are unpredictable and hard to debug.
+Interference happens when two operations, running in different threads, but acting on the same data, *interleave*. This means that the two operations consist of multiple steps and the sequences of steps overlap. For example, `a++` & `a--` being invoked by two concurrent threads. Thread interference bugs (AKA race conditions) are unpredictable and hard to debug.
 
 ### Memory Consistency Errors
 
